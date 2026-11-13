@@ -3,12 +3,15 @@
 PENETRATION TESTING REPORT
 
 FOOTPRINTING & NETWORK SCANNING PHASES
-###Reconnaissance/Footprinting is  the information-gathering phase of cybersecurity reconnaissance. It involves collecting details about a target before attempting further security testing.
+
+##Reconnaissance/Footprinting is  the information-gathering phase of cybersecurity reconnaissance. It involves collecting details about a target before attempting further security testing.
 
 ### Network scanning is the process of examining a network to identify active hosts, open ports, running services, and potential weaknesses
 
 
 # Modules completed
+
+
 W2-PM1 (Multiple Kali Tools)
 
 W2-PM2 (GHBD)
@@ -18,8 +21,10 @@ W2-PM4 (Theharvester)
 W2-PM5 (Zenmap Scanning)
 
 ##Client/Target
+
 1. Networkwalks (secured written permission already)
-2. My own local LAN Network
+   
+3. My own local LAN Network
 
 
 ##Phases covered
@@ -38,25 +43,54 @@ All commands were run in Kali Linux and the harvester (footprinting) and on a Wi
 
 
 ## Tools Used
+
 The tools used in this report and its purpose.
+
 Tool: Kali Linux & Windows
+
 Purpose Operating systems used for reconnaissance activities
+
+
 TOOl: WHOIS
+
 Purpose: Find domain registration details (owner, dates, name servers).
+
+
 Tool: whatweb
+
 Purpose: Fingerprint web technologies (server, CMS, plugins, IP).
+
+
 Tool: nslookup
+
 Purpose: Resolve the domain name to its IP address using DNS.
+
+
 Tool: curl -I
+
 Purpose: Read the HTTP response headers of the website.
+
+
 Tool: wafw00f
+
 Purpose:Detect whether a Web Application Firewall protects the site.
+
+
 Tool: dnsrecon
+
 Purpose:Enumerate all DNS records (NS, MX, SPF, TXT, SRV).
+
+
 Tool: Zenmap (Nmap GUI)
+
 Purpose:Scan the local subnet to find live hosts, IPs and MAC addresses.
+
+
 Tool: Windows CMD
+
 Purpose:Local IP and MAC address identification
+
+
 
 
 ## Activities Performed
@@ -106,6 +140,7 @@ I used theHARVESTER to gather the list of email IDs related to a target organiza
 
 ## Network Scanning with Zenmap
 For the second activity, I used Zenmap to perform network discovery on my local network. The practical required me to identify my local IP address and subnet, discover live hosts, identify their IP and MAC addresses, and generate a network topology.
+
 I first used the Windows ipconfig command to identify my local IP address and LAN subnet.I then entered the subnet into Zenmap and selected Ping Scan to identify active hosts.
 
 <img width="625" height="532" alt="zenmap" src="https://github.com/user-attachments/assets/cb5b1b45-4964-4547-8749-aaed7407a9d4" />
@@ -123,7 +158,7 @@ Note: The actual subnet, number of hosts and addresses should be replaced with t
 
 ## I learned how to:
 
- - Use WHOIS to obtain domain registration information.
+- Use WHOIS to obtain domain registration information.
 
 - Use NSLookup and DNSRecon to investigate DNS records and domain infrastructure.
 
@@ -142,6 +177,7 @@ Note: The actual subnet, number of hosts and addresses should be replaced with t
 - Understand the difference between passive and active reconnaissance.
 
 - Document reconnaissance findings in a structured manner for cybersecurity assessment.
+  
 
 Overall, the project improved my understanding of information gathering, network enumeration, and the importance of identifying exposed information and services as part of a security assessment.
 # 🧰Report 
