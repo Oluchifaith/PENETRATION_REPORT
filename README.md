@@ -37,7 +37,7 @@ Phase 3-5: In Progress
 
 
 ## Introduction
-This report covers footprinting the networkwalks.com domain using multiple Kali Linux tools (W2-PM1), the harvester (W2-PM4) and scanning my own local network with Zenmap (W2-PM5). One module covers the footprinting phase and the other covers the scanning phase, so together they show how an attacker moves from gathering public information to mapping live hosts on a network. It is the Week 2 part of my ongoing internship program at Networkwalks.
+This report covers footprinting the networkwalks.com domain using multiple Kali Linux tools (W2-PM1), theHARVESTER (W2-PM4) and scanning my own local network with Zenmap (W2-PM5). One module covers the footprinting phase and the other covers the scanning phase, so together they show how an attacker moves from gathering public information to mapping live hosts on a network. It is the Week 2 part of my ongoing internship program at Networkwalks.
 
 All commands were run in Kali Linux and the harvester (footprinting) and on a Windows PC with Zenmap installed (scanning). Every step below includes the exact command used, the result I observed, a screenshot as evidence, and a short note on why the finding matters from an attacker's point of view.
 
@@ -51,7 +51,7 @@ Tool: Kali Linux & Windows
 Purpose Operating systems used for reconnaissance activities
 
 
-TOOl: WHOIS
+Tool: WHOIS
 
 Purpose: Find domain registration details (owner, dates, name servers).
 
