@@ -4,9 +4,9 @@ PENETRATION TESTING REPORT
 
 FOOTPRINTING & NETWORK SCANNING PHASES
 
-##Reconnaissance/Footprinting is  the information-gathering phase of cybersecurity reconnaissance. It involves collecting details about a target before attempting further security testing.
+ Reconnaissance/Footprinting is  the information-gathering phase of cybersecurity reconnaissance. It involves collecting details about a target before attempting further security testing.
 
-### Network scanning is the process of examining a network to identify active hosts, open ports, running services, and potential weaknesses
+ Network scanning is the process of examining a network to identify active hosts, open ports, running services, and potential weaknesses
 
 
 # Modules completed
@@ -20,14 +20,14 @@ W2-PM4 (Theharvester)
 
 W2-PM5 (Zenmap Scanning)
 
-##Client/Target
+# Client/Target
 
 1. Networkwalks (secured written permission already)
    
 3. My own local LAN Network
 
 
-##Phases covered
+# Phases covered
 
 Phase 1: Reconnaissance & Footprinting
 
