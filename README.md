@@ -95,7 +95,7 @@ Purpose:Local IP and MAC address identification
 
 ## Activities Performed
 
-#Footprinting & Reconnaissance
+# Footprinting & Reconnaissance
 
 I performed reconnaissance against the networkwalks.com domain using six Kali Linux tools: WHOIS, WhatWeb, Nslookup, Curl, Wafw00f and DNSRecon. Each tool was used to collect a different type of information about the target.
 First, I used WHOIS to obtain publicly available domain registration information and identify the domain’s name servers. The results provided information about the domain registration and hosting infrastructure.
